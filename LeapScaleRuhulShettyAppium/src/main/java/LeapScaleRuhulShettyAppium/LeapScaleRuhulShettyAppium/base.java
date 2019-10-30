@@ -16,7 +16,7 @@ public class base {
 	// Return Type of this method is driver so use AndroidDriver<AndroidElement>
 	public static AndroidDriver<AndroidElement> capabilities() throws MalformedURLException {
 		// TODO Auto-generated method stub
-
+  
 
 		DesiredCapabilities cap = new DesiredCapabilities();//Class name 
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 5");//We can put emulator name here to open required emulator
