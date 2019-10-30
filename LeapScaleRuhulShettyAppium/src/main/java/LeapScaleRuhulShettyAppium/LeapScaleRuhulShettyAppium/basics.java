@@ -16,7 +16,7 @@ public class basics extends base{
 		AndroidDriver<AndroidElement> driver= capabilities();
 		
 		// Mostly used Locators are xpath, id ,className, androiduiAutomator 
-		/* To write the xpath in appium 
+		/* To write the xpath in appium   
 		 * 
 		 * //tagName[@attribute='value']....... 
 		 * in appium class name is the tag name
